@@ -192,6 +192,10 @@ h1 {
 small {
     font-size: 80%;
 }
+figcaption {
+    font-size: 80%;
+    text-align: center;
+}
 sub,
 sup {
     position: relative;

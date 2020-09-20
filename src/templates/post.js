@@ -40,8 +40,6 @@ const Post = ({ data, location }) => {
                                 className="content-body load-external-scripts"
                                 dangerouslySetInnerHTML={{ __html: post.html }}
                             />
-
-                            <div class="fb-comments" data-href="https://bachdgvn.com/" data-numposts="5" data-width=""></div>
                         </section>
                     </article>
                 </div>

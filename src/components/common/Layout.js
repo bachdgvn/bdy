@@ -32,8 +32,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <body className={bodyClass} />
             </Helmet>
 
-            <div class="code-injection-head">
-                {site.codeinjection_head}
+            <div className="code-injection-head">
+                `${site.codeinjection_head}`
             </div>
 
             <div className="viewport">

@@ -44,7 +44,7 @@ const Post = ({ data, location }) => {
                             />
 
                             <FacebookProvider appId="531727607187840">
-                                <Comments href="https://bachdgvn.com" />
+                                <Comments href="https://bachdgvn.com" width="100%"/>
                             </FacebookProvider>
                         </section>
                     </article>

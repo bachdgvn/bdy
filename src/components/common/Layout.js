@@ -32,9 +32,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <body className={bodyClass} />
             </Helmet>
 
-            <div className="code-injection-head" dangerouslySetInnerHTML={{ __html: site.codeinjection_head }}>
-            </div>
-
             <div className="viewport">
 
                 <div className="viewport-top">

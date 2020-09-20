@@ -6,6 +6,8 @@ import Helmet from 'react-helmet'
 import { Layout } from '../components/common'
 import { MetaData } from '../components/common/meta'
 
+import { FacebookProvider, Comments } from 'react-facebook';
+
 /**
 * Single post view (/:slug)
 *
@@ -40,6 +42,10 @@ const Post = ({ data, location }) => {
                                 className="content-body load-external-scripts"
                                 dangerouslySetInnerHTML={{ __html: post.html }}
                             />
+
+                            <FacebookProvider appId="531727607187840">
+                                <Comments href="https://bachdgvn.com" />
+                            </FacebookProvider>
                         </section>
                     </article>
                 </div>
